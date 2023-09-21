@@ -6,7 +6,7 @@
   "main": "index.js",
   "dependencies": {
     "@docker/docker-mui-theme": "^0.0.4",
-    "@emotion/react": "^11.8.2",
+    "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.8.1",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
