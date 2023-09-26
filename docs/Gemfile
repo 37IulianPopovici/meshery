@@ -24,7 +24,7 @@ gem "github-pages", group: :jekyll_plugins
 group :graphqlDocs_plugins do
  gem "rake"
  gem "graphql"
- gem "rails"
+ gem "rails", ">= 7.0.7.1"
  gem "graphql-docs"
  gem "haml"
 
