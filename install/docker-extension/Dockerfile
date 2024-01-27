@@ -25,7 +25,7 @@ RUN --mount=type=cache,target=/usr/src/app/.npm-${TARGETARCH} \
 COPY ui /ui
 RUN npm run build
 
-FROM alpine
+FROM alpine:3
 ARG GIT_STRIPPED_VERSION
 ARG GIT_VERSION
 ARG RELEASE_CHANNEL
